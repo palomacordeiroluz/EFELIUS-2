@@ -13,3 +13,19 @@ window.addEventListener('scroll', () => {
     if (a.getAttribute('href') === '#' + current) a.classList.add('active');
   });
 });
+
+/* ── SCROLL REVEAL ── */
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll(
+  '.problema-card, .fluxo-card, .tech-card, .objetivo-item, .publico-card, .beneficio-card, .aplicacao-item'
+).forEach(el => {
+  el.classList.add('reveal');
+  observer.observe(el);
+});
