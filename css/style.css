@@ -209,3 +209,65 @@ section {
   border-color: var(--orange);
   transform: translateY(-2px);
 }
+
+/* ── TECNOLOGIA ── */
+#tecnologia {
+  max-width: 100%;
+  padding: 80px 40px;
+  background: var(--dark);
+  position: relative;
+  overflow: hidden;
+}
+
+/* GIF background da seção tecnologia */
+.tecnologia-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url('../assets/tech-bg.gif');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+  z-index: 0;
+}
+
+#tecnologia .inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.fluxo-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.fluxo-grid {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.fluxo-card {
+  background: var(--orange);
+  border-radius: 10px;
+  padding: 16px 18px;
+  flex: 1;
+  min-width: 120px;
+}
+
+.fluxo-card p {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 4px;
+}
+
+.fluxo-card span {
+  font-size: 11px;
+  color: rgba(0,0,0,0.6);
+}
