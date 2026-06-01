@@ -75,7 +75,7 @@ nav {
   position: absolute;
   inset: 0;
   background: var(--dark);
-  background-image: url('../assets/hero-bg.gif'); 
+  background-image: url('assets/hero-bg.gif'); 
   background-size: cover;
   background-position: center;
   z-index: 0;
@@ -223,7 +223,7 @@ section {
 .tecnologia-bg {
   position: absolute;
   inset: 0;
-  background-image: url('../assets/tech-bg.gif');
+  background-image: url('assets/tech-bg.gif');
   background-size: cover;
   background-position: center;
   opacity: 0.7;
@@ -351,7 +351,7 @@ section {
 .objetivos-bg {
   position: absolute;
   inset: 0;
-  background-image: url('../assets/terra.gif'); 
+  background-image: url('assets/terra.gif'); 
   background-size: cover;
   background-position: center;
   opacity: 0.9;
@@ -451,7 +451,7 @@ section {
 .beneficios-bg {
   position: absolute;
   inset: 0;
-  background-image: url('../assets/sunback.gif'); 
+  background-image: url('assets/sunback.gif'); 
   background-size: cover;
   background-position: center;
   opacity: 0.7;
